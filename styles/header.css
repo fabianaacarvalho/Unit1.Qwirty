@@ -1,0 +1,83 @@
+nav .top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid goldenrod;
+  height: 50px;
+  background-color: rgb(219, 169, 104);
+}
+
+.top a:hover {
+  color: darkolivegreen;
+}
+
+.top li {
+  list-style: none;
+  align-items: center;
+  padding: 0.5rem;
+  border-right: 1px solid black;
+}
+
+menu.left {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.1rem;
+}
+
+menu.right {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0.1rem;
+}
+
+.bottom {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.bottom h1 {
+  color: rgb(255, 255, 255);
+}
+
+.bottom form {
+  display: flex;
+  flex: 1;
+}
+
+.bottom form input {
+  flex: 1;
+  border-bottom: 1px solid;
+  padding: 0.25rem 0.4rem;
+}
+
+.bottom form button {
+  background-color: rgb(219, 169, 104);
+  color: black;
+  padding: 0.25rem;
+}
+
+.bottom .ad {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.4rem;
+}
+
+@media (min-width: 720px) {
+  nav.top {
+    display: flex;
+  }
+
+  .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2ch;
+    padding-right: 1rem;
+  }
+}

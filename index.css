@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: darkolivegreen;
+  color: black;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  gap: 1.5ch;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 720px) {
+  .header {
+    display: flex;
+  }
+}

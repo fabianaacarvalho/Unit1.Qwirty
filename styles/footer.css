@@ -1,0 +1,38 @@
+footer.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background: rgb(219, 169, 104);
+  color: black;
+
+  padding: 1ch;
+
+  gap: 10rem;
+}
+
+footer.page h2 {
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid darkolivegreen;
+  padding: 0.25rem;
+}
+
+footer.page menu {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+footer.page menu a:hover {
+  color: darkolivegreen;
+}
+
+@media (min-width: 720px) {
+  footer.page {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+  }
+}
